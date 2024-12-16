@@ -26,5 +26,3 @@ There are a few challenges you can take on to extend this project:
 1. **Easy**: Allow multiple polls to be run at the same time in the UI.
 2. **Hard**: Limit votes to one per signer.
 
-
-anchor test --skip-local-validator --skip-deploy
