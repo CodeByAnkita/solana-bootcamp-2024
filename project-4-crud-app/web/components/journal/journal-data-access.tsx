@@ -77,6 +77,8 @@ export function useJournalProgramAccount({ account }: { account: PublicKey }) {
   const { program, accounts } = useJournalProgram();
   const programId = new PublicKey(
     "8sddtWW1q7fwzspAfZj4zNpeQjpvmD3EeCCEfnc3JnuP"
+  // "EZB64BQPMPzGNEV6XvrxTSPcQHCXaRF7aXMgunxQ6LNh" //from anchor/src/journalexports.ts
+
   );
 
   const accountQuery = useQuery({
